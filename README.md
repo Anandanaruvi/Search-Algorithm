@@ -34,9 +34,9 @@ To write a program to perform linear search and binary search using python progr
 6.	Repeat steps 2 to 5 until low meets high
 
 ## Program:
-
-i)	#Use a linear search method to match the item in a list.
 ```
+i)	#Use a linear search method to match the item in a list.
+
 def selection_sort(nums):
     for i in range(len(nums)):
         lowest_value_index=i
@@ -47,11 +47,6 @@ def selection_sort(nums):
 list_of_nums=eval(input())
 selection_sort(list_of_nums)
 print(list_of_nums)
-    
-    
-
-
-
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
