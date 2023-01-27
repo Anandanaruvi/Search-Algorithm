@@ -36,7 +36,7 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 
 i)	#Use a linear search method to match the item in a list.
-```python
+```
 def selection_sort(nums):
     for i in range(len(nums)):
         lowest_value_index=i
@@ -54,7 +54,7 @@ print(list_of_nums)
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
-```python
+```
 def selection_sort(nums):
     for i in range(len(nums)):
         lowest_value_index = i
@@ -72,7 +72,7 @@ print(list_of_nums)
 
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
-```python
+```
 def insertion_sort(nums):
 
     for i in range(1, len(nums)):
